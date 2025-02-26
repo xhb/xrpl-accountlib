@@ -1,1 +1,1 @@
-declare module "xrpl-sign-keypairs";
+declare module "@xhbmygod/xrpl-sign-keypairs";

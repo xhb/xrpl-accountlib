@@ -1,1 +1,1 @@
-declare module "ripple-secret-codec";
+declare module "@xhbmygod/ripple-secret-codec";

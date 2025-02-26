@@ -1,6 +1,6 @@
 "use strict";
 
-import { generateSeed, deriveKeypair, deriveAddress, } from "ripple-keypairs";
+import { generateSeed, deriveKeypair, deriveAddress, } from "@xhbmygod/ripple-keypairs";
 
 import Account, { Algorithms } from "../schema/Account";
 

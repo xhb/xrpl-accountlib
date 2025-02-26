@@ -1,8 +1,8 @@
 "use strict";
 
 import hashjs from "hash.js";
-import { encodeHex } from "ripple-secret-codec";
-import { deriveKeypair, deriveAddress, } from "ripple-keypairs";
+import { encodeHex } from "@xhbmygod/ripple-secret-codec";
+import { deriveKeypair, deriveAddress, } from "@xhbmygod/ripple-keypairs";
 
 import Account from "../schema/Account";
 

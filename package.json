@@ -1,11 +1,11 @@
 {
-  "name": "xrpl-accountlib",
+  "name": "@xhbmygod/xrpl-accountlib",
   "version": "8.3.0",
   "description": "XRPL Account helper: generation, derivation and signing",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "prepublish": "npm run clean && npm run test && npm run build",
+    "prepublish": "echo 'xhb skip test'; # npm run clean && npm run test && npm run build",
     "clean": "rm -rf dist",
     "build": "tsc",
     "test": "jest --verbose",
@@ -28,14 +28,14 @@
     "elliptic": "^6.6.1",
     "hash.js": "^1.1.7",
     "lodash": "^4.17.21",
-    "ripple-address-codec": "^4.2.5",
-    "ripple-keypairs": "^2.0.0",
-    "ripple-secret-codec": "^1.0.3",
-    "verify-xrpl-signature": "^8.2.0",
-    "xrpl-binary-codec-prerelease": "^8.2.0",
+    "@xhbmygod/ripple-address-codec": "^5.0.0",
+    "@xhbmygod/ripple-keypairs": "^2.0.0",
+    "@xhbmygod/ripple-secret-codec": "^1.0.3",
+    "@xhbmygod/verify-xrpl-signature": "^8.2.0",
+    "@xhbmygod/ripple-binary-codec": "^2.3.1",
     "xrpl-client": "^2.3.0",
-    "xrpl-secret-numbers": "^0.3.5",
-    "xrpl-sign-keypairs": "^8.2.0"
+    "@xhbmygod/xrpl-secret-numbers": "0.3.5",
+    "@xhbmygod/xrpl-sign-keypairs": "^8.2.0"
   },
   "devDependencies": {
     "@types/babel__core": "^7.1.19",

@@ -3,7 +3,7 @@
 import * as Utils from "../utils";
 import { setNativeAsset } from "../sign";
 import assert from "assert";
-import { decode, type XrplDefinitions } from "xrpl-binary-codec-prerelease";
+import { decode, type XrplDefinitions } from "@xhbmygod/ripple-binary-codec";
 
 type PreparedRawTransaction = {
   pubkey: string;

@@ -2,10 +2,10 @@
 
 import assert from "assert";
 
-import { encodeForSigningClaim, XrplDefinitions } from "xrpl-binary-codec-prerelease";
-import { sign as rk_sign } from "ripple-keypairs";
+import { encodeForSigningClaim, XrplDefinitions } from "@xhbmygod/ripple-binary-codec";
+import { sign as rk_sign } from "@xhbmygod/ripple-keypairs";
 import { XrplClient } from "xrpl-client";
-import Sign from "xrpl-sign-keypairs";
+import Sign from "@xhbmygod/xrpl-sign-keypairs";
 
 import Account from "../schema/Account";
 import { combine, networkTxFee, networkInfo, accountAndLedgerSequence } from "../utils";
@@ -125,7 +125,7 @@ const sign = (
       ],
     };
   } else {
-    const Codec = require("xrpl-binary-codec-prerelease");
+    const Codec = require("@xhbmygod/ripple-binary-codec");
 
     const MultiSignedTransactionBinary = (() => {
       if (

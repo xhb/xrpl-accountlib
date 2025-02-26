@@ -1,4 +1,4 @@
-declare module "ripple-keypairs" {
+declare module "@xhbmygod/ripple-keypairs" {
   export interface RippleKeypair {
     privateKey: string;
     publicKey: string;

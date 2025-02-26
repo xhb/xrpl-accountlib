@@ -1,1 +1,1 @@
-declare module "ripple-address-codec";
+declare module "@xhbmygod/ripple-address-codec";

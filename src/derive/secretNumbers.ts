@@ -1,6 +1,6 @@
 "use strict";
 
-import * as XrplSecretNumbers from "xrpl-secret-numbers";
+import * as XrplSecretNumbers from "@xhbmygod/xrpl-secret-numbers";
 import * as Utils from "../utils";
 
 import Account from "../schema/Account";

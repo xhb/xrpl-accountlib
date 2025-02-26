@@ -1,6 +1,6 @@
 "use strict";
 
-import { deriveKeypair, deriveAddress, } from "ripple-keypairs";
+import { deriveKeypair, deriveAddress, } from "@xhbmygod/ripple-keypairs";
 import * as Utils from "../utils";
 
 import Account from "../schema/Account";

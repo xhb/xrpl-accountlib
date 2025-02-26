@@ -12,10 +12,10 @@ import XRPL_Account from "./schema/Account";
 import { XrplClient } from "xrpl-client";
 
 /* All Libs ================================================================= */
-import * as rippleAddressCodec from "ripple-address-codec";
-import * as rippleKeypairs from "ripple-keypairs";
-import * as rippleSecretCodec from "ripple-secret-codec";
-import * as xrplBinaryCodecPrerelease from "xrpl-binary-codec-prerelease";
+import * as rippleAddressCodec from "@xhbmygod/ripple-address-codec";
+import * as rippleKeypairs from "@xhbmygod/ripple-keypairs";
+import * as rippleSecretCodec from "@xhbmygod/ripple-secret-codec";
+import * as xrplBinaryCodecPrerelease from "@xhbmygod/ripple-binary-codec";
 
 /* Defs ===================================================================== */
 import {
@@ -26,9 +26,9 @@ import {
   encodeForMultisigning,
   encodeForSigningClaim,
   nativeAsset,
-} from "xrpl-binary-codec-prerelease";
-import DEFAULT_DEFINITIONS from 'xrpl-binary-codec-prerelease/dist/enums/definitions.json';
-import { type DefinitionsData } from "xrpl-binary-codec-prerelease/dist/enums/xrpl-definitions-base";
+} from "@xhbmygod/ripple-binary-codec";
+import DEFAULT_DEFINITIONS from '@xhbmygod/ripple-binary-codec/dist/enums/definitions.json';
+import { type DefinitionsData } from "@xhbmygod/ripple-binary-codec/dist/enums/xrpl-definitions-base";
 
 const binary = {
   encode,

@@ -2,16 +2,16 @@
 
 import BN from "bn.js";
 import { flatMap } from "lodash";
-import { decodeAccountID } from "ripple-address-codec";
+import { decodeAccountID } from "@xhbmygod/ripple-address-codec";
 // import { Buffer as BufferPf } from "buffer/";
-import * as AddressCodec from "ripple-address-codec";
+import * as AddressCodec from "@xhbmygod/ripple-address-codec";
 import { validateMnemonic } from "bip39";
 import * as elliptic from "elliptic";
-import { verify, deriveAddress } from "ripple-keypairs";
+import { verify, deriveAddress } from "@xhbmygod/ripple-keypairs";
 import assert from "assert";
 import hashjs from "hash.js";
-import { HashPrefix } from "xrpl-binary-codec-prerelease/dist/hash-prefixes";
-import { sha512Half } from "xrpl-binary-codec-prerelease/dist/hashes";
+import { HashPrefix } from "@xhbmygod/ripple-binary-codec/dist/hash-prefixes";
+import { sha512Half } from "@xhbmygod/ripple-binary-codec/dist/hashes";
 import {
   encode,
   decode,
@@ -19,7 +19,7 @@ import {
   encodeForMultisigning,
   encodeForSigningClaim,
   XrplDefinitions,
-} from "xrpl-binary-codec-prerelease";
+} from "@xhbmygod/ripple-binary-codec";
 import type Account from "../schema/Account";
 import { passphrase } from "../derive";
 import { sign } from "../sign";

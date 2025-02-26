@@ -1,6 +1,6 @@
 import fixtures from "./fixtures/api.json";
 import { derive, sign, rawSigning } from "../src";
-import { verify } from "ripple-keypairs";
+import { verify } from "@xhbmygod/ripple-keypairs";
 
 const TxFormats = [
   {

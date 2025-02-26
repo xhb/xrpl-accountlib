@@ -1,5 +1,5 @@
 const lib = require("../");
-const { verify } = require('ripple-keypairs')
+const { verify } = require('@xhbmygod/ripple-keypairs')
 
 console.log("XRPL-AccountLib");
 console.log();

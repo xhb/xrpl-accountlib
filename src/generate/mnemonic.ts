@@ -2,7 +2,7 @@
 
 import { wordlists, mnemonicToSeedSync, generateMnemonic } from "bip39";
 import * as Bip32 from "bip32";
-import { deriveAddress } from "ripple-keypairs";
+import { deriveAddress } from "@xhbmygod/ripple-keypairs";
 import { randomBytes } from "crypto";
 
 import Account from "../schema/Account";

@@ -1,5 +1,5 @@
-import { deriveAddress } from "ripple-keypairs";
-import * as AddressCodec from "ripple-address-codec";
+import { deriveAddress } from "@xhbmygod/ripple-keypairs";
+import * as AddressCodec from "@xhbmygod/ripple-address-codec";
 import * as Elliptic from "elliptic";
 import * as Utils from "../utils";
 
